@@ -1,0 +1,33 @@
+.VotingsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.VotingsList ul {
+  list-style-type: none;
+  padding: 0;
+  width: 80%;
+  text-align: center; 
+}
+
+.VotingsList ul li {
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.VotingsList ul li:hover {
+  background-color: #ddd;
+}
+
+.VotingsList ul li h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #333;
+  padding-right: 10px;
+}

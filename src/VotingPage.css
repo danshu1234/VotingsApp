@@ -1,0 +1,58 @@
+.VotingPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .VotingPage button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .VotingPage button:hover {
+    background-color: #5a6268;
+  }
+  
+  .VotingPage h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .VotingPage h2 {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .VotingPage p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .VotingPage ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .VotingPage ul li {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .VotingPage ul li:hover {
+    background-color: #ddd;
+  }
+  
+  .VotingPage .chart-container {
+    margin: 20px 0;
+  }

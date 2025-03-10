@@ -1,0 +1,25 @@
+.Menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .Menu button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Menu button:hover {
+    background-color: #0056b3;
+  }
+  
+  .Menu h3 {
+    color: #555;
+}

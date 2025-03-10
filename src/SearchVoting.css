@@ -1,0 +1,34 @@
+.SearchVoting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .SearchVoting input {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .SearchVoting button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .SearchVoting button:hover {
+    background-color: #138496;
+  }
+  
+  .SearchVoting p {
+    color: #dc3545;
+    font-weight: bold;
+  }
